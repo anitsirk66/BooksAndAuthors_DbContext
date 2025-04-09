@@ -4,8 +4,6 @@ using Microsoft.EntityFrameworkCore;
 
 Console.WriteLine("Hello, World!");
 
-Author author = new Author();
-
 using (BooksAndAuthorsDbContext context = new BooksAndAuthorsDbContext())
 {
     //var authors = new List<Author>
